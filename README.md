@@ -14,7 +14,7 @@
  - Command line tool access to cloud hosting providers
  - Admin privileges on the computer used to run the agent
  - Outbound internet access (for posting results and fetching dependency metadata)
- - Your dependency mangement tools (e.g. `npm` or `yarn` or `maven`)
+ - Your dependency management tools (e.g. `npm` or `yarn` or `maven`)
 
 ## To run the Agent:
  - Install this package with `pip install verinfast`

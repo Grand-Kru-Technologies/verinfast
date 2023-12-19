@@ -538,6 +538,7 @@ class Agent:
                         self.log(tag="", msg=traceback.format_exc())
 
                     os.chdir(curr_dir)
+                    self.log(msg=str(self.config.config))
                     if not self.config.dry and self.config.delete_temp:
                         shutil.rmtree(temp_dir)
             else:
